@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:background="@drawable/isalmi_home"
+   >
+
+    <ImageView
+        android:id="@+id/circle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:adjustViewBounds="true"
+        android:src="@drawable/islamic_shape"
+        />
+
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        tools:text="hjjjjjjjjjjjjjjjjjvjhvkkkkkn"
+        android:textColor="@color/colorAccent"
+        android:textSize="22sp"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="@id/circle"
+        app:layout_constraintLeft_toLeftOf="@id/circle"
+        app:layout_constraintRight_toRightOf="@id/circle"
+        app:layout_constraintTop_toTopOf="@id/circle" />
+</android.support.constraint.ConstraintLayout>
